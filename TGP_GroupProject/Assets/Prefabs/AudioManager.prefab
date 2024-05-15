@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5747636956338614235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5747636956338614234}
+  - component: {fileID: 5747636956338614233}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5747636956338614234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5747636956338614235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5747636956338614233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5747636956338614235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f37336eff71e8c45a91529a51cc7d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sounds:
+  - m_Name: Pew
+    m_Clip: {fileID: 8300000, guid: 804e90243da98d4408dec7e1684f1f74, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.1
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: Boom
+    m_Clip: {fileID: 8300000, guid: edb33a5bb86aa9243a459884cada02a6, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.2
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: Death
+    m_Clip: {fileID: 8300000, guid: 7c3718d9ef0d9a44a8d8df57c99d072d, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.2
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: Pew2
+    m_Clip: {fileID: 8300000, guid: eaafe844a6ae1d34f89654c1d1070959, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.1
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: Pew3
+    m_Clip: {fileID: 8300000, guid: 158e2160044c0e7429e5c4b92b2dfd78, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.1
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: TankBullet
+    m_Clip: {fileID: 8300000, guid: e6469cf3a093022478deef0bad2eef00, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.1
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: TankTurret
+    m_Clip: {fileID: 8300000, guid: ebc283f5c8c2e61459c9e6c8f1675fc5, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.1
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: TankSentry2
+    m_Clip: {fileID: 8300000, guid: ebc283f5c8c2e61459c9e6c8f1675fc5, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.25
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  - m_Name: TankSentry3
+    m_Clip: {fileID: 8300000, guid: 5710652a3d8b1bf4aadeecccc99fdc94, type: 3}
+    m_Source: {fileID: 0}
+    m_MixerGroup: {fileID: -2643387392186985529, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+    m_Volume: 0.25
+    m_Pitch: 1
+    m_bLoop: 0
+    m_bPlayOnAwake: 0
+  m_MusicTracks:
+  - m_Name: Tutorial
+    m_Clip: {fileID: 8300000, guid: b54c7d86f698f085191f76e77fa279a6, type: 3}
+    m_Volume: 1
+  - m_Name: Level 1
+    m_Clip: {fileID: 8300000, guid: 7d2dadda6889c24528d20272a90e0e31, type: 3}
+    m_Volume: 1
+  - m_Name: Level 2
+    m_Clip: {fileID: 8300000, guid: 5f7fedac80fc4e363be1482c3eecd8d3, type: 3}
+    m_Volume: 1
+  - m_Name: Level 3
+    m_Clip: {fileID: 8300000, guid: ed3d44e7ab08a0da188cf3d81853855f, type: 3}
+    m_Volume: 1
+  - m_Name: Level 4
+    m_Clip: {fileID: 8300000, guid: d1fa1b18d69a6d66298d7de94d351827, type: 3}
+    m_Volume: 1
+  - m_Name: Level 5
+    m_Clip: {fileID: 8300000, guid: d1e9d939565efae2690d7422edbb0ee2, type: 3}
+    m_Volume: 1
+  - m_Name: Boss
+    m_Clip: {fileID: 8300000, guid: e3661db7dee88f972b443c614c4ed836, type: 3}
+    m_Volume: 1
+  m_AmbienceTracks: []
+  m_MusicMixerGroup: {fileID: -6176810913756347577, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}
+  m_AmbienceMixerGroup: {fileID: -6192730642936596909, guid: d3fa8effedffdab499b37614c7609c4e, type: 2}

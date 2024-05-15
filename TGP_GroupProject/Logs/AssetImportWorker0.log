@@ -1,0 +1,2127 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19045.4170; Version 2009; 64bit' Language: 'en' Physical Memory: 65457 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/TGP_GroupProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53083
+Successfully changed project path to: D:/Github/TGP_GroupProject
+D:/Github/TGP_GroupProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 115.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/TGP_GroupProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24340 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001784 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 116.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 123.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5060 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 209.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5513.
+Total: 3.379900 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.805400 ms  DeleteObjects: 0.092000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Editor/Scripts/UI
+  artifactKey: Guid(805a2326d9f425847a716c2634cc61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Scripts/UI using Guid(805a2326d9f425847a716c2634cc61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01760eaf16cfd05bb22a41c7ba7b5c8') in 0.010672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Editor/Scripts
+  artifactKey: Guid(5f8c6139fd4545443bfd5bc19882ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Scripts using Guid(5f8c6139fd4545443bfd5bc19882ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026f668a8950df38ce55cbedcf24bdd8') in 0.005275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.279872 seconds.
+  path: Assets/_Scenes/Boss Fight
+  artifactKey: Guid(43464adccd6ba4f4f8658d220bf543bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight using Guid(43464adccd6ba4f4f8658d220bf543bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d45b239a0cc4a97e77e19520bd7710e') in 0.007914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038196 seconds.
+  path: Assets/_Scenes/Boss Fight/LightingData.asset
+  artifactKey: Guid(a153148bad7f09846a8ce8fb32a7d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/LightingData.asset using Guid(a153148bad7f09846a8ce8fb32a7d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117ead750f0601e8e9efa054f2342cda') in 0.027032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-14_comp_light.exr
+  artifactKey: Guid(521fd1ef84370cd40a1545c3f07f3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-14_comp_light.exr using Guid(521fd1ef84370cd40a1545c3f07f3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c23611f582cf69ce3b6d46079521985') in 0.054347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-7_comp_dir.png
+  artifactKey: Guid(9d42bf1b3eb143c438bcc69d554c2268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-7_comp_dir.png using Guid(9d42bf1b3eb143c438bcc69d554c2268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bcb0df6b708bcb3e2f63b301e13f09') in 0.035440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-15_comp_dir.png
+  artifactKey: Guid(2f73d9ead9cfbdb45898da3774fb5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-15_comp_dir.png using Guid(2f73d9ead9cfbdb45898da3774fb5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65266f799143d1e953ccc993a8c1fad') in 0.008901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-1_comp_light.exr
+  artifactKey: Guid(dfa0d73811fa10445b277eedb23d5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-1_comp_light.exr using Guid(dfa0d73811fa10445b277eedb23d5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5a6d363d94c609d01040ccf5745df') in 0.010089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-2_comp_light.exr
+  artifactKey: Guid(09d736f3d0ffa1a41acd412b74fd58c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-2_comp_light.exr using Guid(09d736f3d0ffa1a41acd412b74fd58c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14d82573350b15e08924a710cfa4361') in 0.008049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-14_comp_dir.png
+  artifactKey: Guid(236772ad225ec7e49ad4c100c1eb8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-14_comp_dir.png using Guid(236772ad225ec7e49ad4c100c1eb8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b887d101a98f2d44f30d391eb3a14c5') in 0.008699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-16_comp_dir.png
+  artifactKey: Guid(68714469861325c4aabb26ebb53c2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-16_comp_dir.png using Guid(68714469861325c4aabb26ebb53c2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75825d70c2abcc45e38681f2fbc36805') in 0.008942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-3_comp_light.exr
+  artifactKey: Guid(4df02a188e221524783e5240f62b7c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-3_comp_light.exr using Guid(4df02a188e221524783e5240f62b7c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f53d16745edaa8dd6b43e72ea28590') in 0.008770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-4_comp_light.exr
+  artifactKey: Guid(450cedbcdef94e64ebae3454523f3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-4_comp_light.exr using Guid(450cedbcdef94e64ebae3454523f3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9231eeffb1faf7fb768122b4028b073a') in 0.009486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-15_comp_light.exr
+  artifactKey: Guid(3fa6ce9055bbd0f4cb012037105f13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-15_comp_light.exr using Guid(3fa6ce9055bbd0f4cb012037105f13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361acd2d65868a234d8aa761471e7f4c') in 0.009013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Boss Fight/ReflectionProbe-0.exr
+  artifactKey: Guid(86787e2e717a718409c609cddfd6822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/ReflectionProbe-0.exr using Guid(86787e2e717a718409c609cddfd6822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c093573d4d1339532bbbdac4b4cd45') in 0.029196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-8_comp_light.exr
+  artifactKey: Guid(61c54eaeb237ef74d92eed58a2af8d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-8_comp_light.exr using Guid(61c54eaeb237ef74d92eed58a2af8d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f80c7f9bb4b0cb9030734a27d8199e') in 0.009327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dcd253171aaf2148980cb5f45001d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-3_comp_dir.png using Guid(0dcd253171aaf2148980cb5f45001d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf482f4c07cb4dfa28eb20d1d106b148') in 0.009678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-10_comp_light.exr
+  artifactKey: Guid(91fe6cc604261a348b1eee3d581b2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-10_comp_light.exr using Guid(91fe6cc604261a348b1eee3d581b2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7db301aeffb10c96432b5feb55d4c8') in 0.010169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-6_comp_dir.png
+  artifactKey: Guid(805e92e13573d064394850250faeb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-6_comp_dir.png using Guid(805e92e13573d064394850250faeb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e728c5aad313337c15984ace3aca42f6') in 0.008906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-0_comp_dir.png
+  artifactKey: Guid(c9510e7d63ae0b541b1f326a1ec934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-0_comp_dir.png using Guid(c9510e7d63ae0b541b1f326a1ec934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d17f384fa2b834fa49e030036dc15c9') in 0.009390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-12_comp_light.exr
+  artifactKey: Guid(7c72af8de4241de42b2d793154f333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-12_comp_light.exr using Guid(7c72af8de4241de42b2d793154f333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae607e0eafef250c710aab57ba4085a') in 0.008107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-5_comp_dir.png
+  artifactKey: Guid(4568ced2bd4a7c348b381e7926b50a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-5_comp_dir.png using Guid(4568ced2bd4a7c348b381e7926b50a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070644acfb401065cf607a1aa08152f') in 0.008021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-16_comp_light.exr
+  artifactKey: Guid(54fed2fa539eb4d46b919e8c21938ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-16_comp_light.exr using Guid(54fed2fa539eb4d46b919e8c21938ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4e1f4659b14a76bdda7ba817499f7a') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-11_comp_light.exr
+  artifactKey: Guid(8c97520c5220ef94c8621a6d2072628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-11_comp_light.exr using Guid(8c97520c5220ef94c8621a6d2072628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff33c49938bb6827ad747e30664805cc') in 0.010691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-7_comp_light.exr
+  artifactKey: Guid(beb3c4111c4959f4bb2cb5179ec9bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-7_comp_light.exr using Guid(beb3c4111c4959f4bb2cb5179ec9bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc891a1c196f05181622064ccacef72e') in 0.008978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-13_comp_dir.png
+  artifactKey: Guid(0c1fa45e6765acd408e94496f6ec423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-13_comp_dir.png using Guid(0c1fa45e6765acd408e94496f6ec423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3168652d93bb1d89c844d51ae6985763') in 0.008898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-5_comp_light.exr
+  artifactKey: Guid(0909c1292b8a4ba4e8315b230296cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-5_comp_light.exr using Guid(0909c1292b8a4ba4e8315b230296cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9afd791ef9331fd9cdc573677441731') in 0.009878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-1_comp_dir.png
+  artifactKey: Guid(16e644800a2f15242ae8dac93fe504cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-1_comp_dir.png using Guid(16e644800a2f15242ae8dac93fe504cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2275f9f721e4cf7b87e9c2a210b150d') in 0.009326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-10_comp_dir.png
+  artifactKey: Guid(78ac4af6a71b363449945ece80b5bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-10_comp_dir.png using Guid(78ac4af6a71b363449945ece80b5bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf63a6c89b5fdc08d38f13825d142c57') in 0.009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-9_comp_dir.png
+  artifactKey: Guid(abdb1a405cb104d48a3a2e2de1b9a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-9_comp_dir.png using Guid(abdb1a405cb104d48a3a2e2de1b9a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40179059a5db3d8528c2a29a765a2747') in 0.009501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-12_comp_dir.png
+  artifactKey: Guid(e4352386bc6d4cd45a25d74fb654cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-12_comp_dir.png using Guid(e4352386bc6d4cd45a25d74fb654cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021daecb716f54b331d4e25eeb2701db') in 0.008558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-2_comp_dir.png
+  artifactKey: Guid(07dfacbaa6daab043be2f0092e4eedd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-2_comp_dir.png using Guid(07dfacbaa6daab043be2f0092e4eedd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7759f564a026e44ce20bd8bdfbdc051e') in 0.009130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-4_comp_dir.png
+  artifactKey: Guid(31ef64921ccd5b14695bcf6d08b066f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-4_comp_dir.png using Guid(31ef64921ccd5b14695bcf6d08b066f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf5dbd37f68293c7da287152893d5f5') in 0.009702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-6_comp_light.exr
+  artifactKey: Guid(bba472b3ddba47f45bae85802c4d1b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-6_comp_light.exr using Guid(bba472b3ddba47f45bae85802c4d1b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e735a598e86e4b8291009bd1f55a0') in 0.008934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-8_comp_dir.png
+  artifactKey: Guid(d51ede68aced4554d94535628f83178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-8_comp_dir.png using Guid(d51ede68aced4554d94535628f83178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2b8657f4497dd5f253bcc7e4cfb7c') in 0.008995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-13_comp_light.exr
+  artifactKey: Guid(7015867fd5c472e418c5ff94896811b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-13_comp_light.exr using Guid(7015867fd5c472e418c5ff94896811b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e5ad161e5cc7e692aa2aec8a7cccc') in 0.009011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-11_comp_dir.png
+  artifactKey: Guid(f474701bf0ba2194d8ebd8464b415cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-11_comp_dir.png using Guid(f474701bf0ba2194d8ebd8464b415cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dece208bf4622abb6be76856333c18') in 0.008961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-0_comp_light.exr
+  artifactKey: Guid(bcc03ee9953aae54ea53c6fdd4c1d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-0_comp_light.exr using Guid(bcc03ee9953aae54ea53c6fdd4c1d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218f25d4f3a3f96929ca1e613b99aac5') in 0.009272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_Scenes/Boss Fight/Lightmap-9_comp_light.exr
+  artifactKey: Guid(a9f6645a414cd0140be30d7cc6b6b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Fight/Lightmap-9_comp_light.exr using Guid(a9f6645a414cd0140be30d7cc6b6b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6caefd18e12d2029f6a434ce232d4b') in 0.009027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.734557 seconds.
+  path: Assets/_Scenes/Level Mockup
+  artifactKey: Guid(31f05d826e5d3bc4aab18c3189bf5385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup using Guid(31f05d826e5d3bc4aab18c3189bf5385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287949f9eab33dbe6afd4864a8d08aad') in 0.005549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032124 seconds.
+  path: Assets/_Scenes/Level Mockup/LightingData.asset
+  artifactKey: Guid(79074c3ffac5e8f4cb7c756d79a179a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/LightingData.asset using Guid(79074c3ffac5e8f4cb7c756d79a179a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bfd59ff803f7373c75a8aba0b95bef') in 0.022194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6eae0f759701f9e48bb84963097897ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-10_comp_light.exr using Guid(6eae0f759701f9e48bb84963097897ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7a86bead4931663ca4c19da3f27ab0') in 0.031380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-5_comp_dir.png
+  artifactKey: Guid(dffbc64a0c156bd439f04f4293c6ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-5_comp_dir.png using Guid(dffbc64a0c156bd439f04f4293c6ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7dd6ed5759b6ec5d72bcceb84cd031') in 0.052062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-12_comp_dir.png
+  artifactKey: Guid(db6e703b8e6619f4990d6faad00ff512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-12_comp_dir.png using Guid(db6e703b8e6619f4990d6faad00ff512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5511d088ba29a5971c2947fcaf4b12d') in 0.053576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-14_comp_light.exr
+  artifactKey: Guid(7ca00ddf3b5262b4187ac08157f2ae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-14_comp_light.exr using Guid(7ca00ddf3b5262b4187ac08157f2ae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e98f3b1c1bc146fd610ef9c076ddf4') in 0.015393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-2_comp_dir.png
+  artifactKey: Guid(585449f56dedc2146af8083cc7b31273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-2_comp_dir.png using Guid(585449f56dedc2146af8083cc7b31273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a37d2a84687f399de4a0f8434e3cd4b') in 0.049812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-5_comp_light.exr
+  artifactKey: Guid(3d39254ec8230cd47a9c764eaace6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-5_comp_light.exr using Guid(3d39254ec8230cd47a9c764eaace6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb72a85a8255b7b0033de9bcfb71b46') in 0.052312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-9_comp_dir.png
+  artifactKey: Guid(ae40a0092174a244a883435f9787bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-9_comp_dir.png using Guid(ae40a0092174a244a883435f9787bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b6e949f6de23f85847ab71972fcb1d') in 0.034320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-16_comp_light.exr
+  artifactKey: Guid(277577cffee8a1840b1cbc07c1ae8919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-16_comp_light.exr using Guid(277577cffee8a1840b1cbc07c1ae8919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e990b1b3a7012d9268b7a4d7a5ef2a') in 0.051273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-25_comp_dir.png
+  artifactKey: Guid(e53cc474aa974a1419170e6a94b542f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-25_comp_dir.png using Guid(e53cc474aa974a1419170e6a94b542f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdaf861b29873f3f9c65ae9e2ec3f80') in 0.009317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-27_comp_light.exr
+  artifactKey: Guid(683e4a73de8121f4eacfaa9305e7a900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-27_comp_light.exr using Guid(683e4a73de8121f4eacfaa9305e7a900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437f17cb4849c1ffa996a412edc9e68e') in 0.041282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-10_comp_dir.png
+  artifactKey: Guid(dd4b24d0f682e854db55509660b73001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-10_comp_dir.png using Guid(dd4b24d0f682e854db55509660b73001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762c142be66eb2797405093f804ca9f3') in 0.126708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-12_comp_light.exr
+  artifactKey: Guid(d2874e34365e1da489ce8f615f044a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-12_comp_light.exr using Guid(d2874e34365e1da489ce8f615f044a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f675bf28858b4162cd96f295e270a14f') in 0.046409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-21_comp_dir.png
+  artifactKey: Guid(ac3da6096d4d7644c8ce29ceab1f04dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-21_comp_dir.png using Guid(ac3da6096d4d7644c8ce29ceab1f04dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2daa4ce170e855c72db2e8a7097702b') in 0.071231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-24_comp_light.exr
+  artifactKey: Guid(1b3a4107796a00d4ab473cbb6e081e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-24_comp_light.exr using Guid(1b3a4107796a00d4ab473cbb6e081e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb95705cdd3105313b37853eb9f4a70') in 0.010157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-20_comp_light.exr
+  artifactKey: Guid(bb5f06a7951ed1c4fb20486150c4c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-20_comp_light.exr using Guid(bb5f06a7951ed1c4fb20486150c4c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92a7c8370d69b651be981f20f37c59f') in 0.050592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-9_comp_light.exr
+  artifactKey: Guid(98ae866bf7c97b04c879421ef5bb0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-9_comp_light.exr using Guid(98ae866bf7c97b04c879421ef5bb0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36e4a6f88578e27002132eed28235e') in 0.015480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-21_comp_light.exr
+  artifactKey: Guid(23f28cde1b8bc5546b4c85828cd3fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-21_comp_light.exr using Guid(23f28cde1b8bc5546b4c85828cd3fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0efb78b7cc2ed36f870c680897c3b') in 0.026501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-11_comp_light.exr
+  artifactKey: Guid(655eac4e27ce26343bef69935bfa44af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-11_comp_light.exr using Guid(655eac4e27ce26343bef69935bfa44af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1c140c9c3f6fa536adf38f0ddaeded') in 0.049931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Level Mockup/NavMesh.asset
+  artifactKey: Guid(eb3daff8a89d75e459ce5c2d2296802d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/NavMesh.asset using Guid(eb3daff8a89d75e459ce5c2d2296802d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fa0dad9efdfc3675956a987765bb05') in 0.016573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Level Mockup/ReflectionProbe-0.exr
+  artifactKey: Guid(933e2ebe9fc7961489ca8b02b76990d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/ReflectionProbe-0.exr using Guid(933e2ebe9fc7961489ca8b02b76990d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05698ba4d93dd92e8838fe95eaa12229') in 0.011213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-7_comp_dir.png
+  artifactKey: Guid(e95d925db9fd44c4caeb027b36109938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-7_comp_dir.png using Guid(e95d925db9fd44c4caeb027b36109938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599a23ed3fbd80350ad2b9d8318c3f4e') in 0.032711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-15_comp_light.exr
+  artifactKey: Guid(140174b0b7203944394143c96f57f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-15_comp_light.exr using Guid(140174b0b7203944394143c96f57f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55df0e724029feca8d3b55c0e466e3f1') in 0.047759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-22_comp_light.exr
+  artifactKey: Guid(23e530819b56f294aa5cb5a974818b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-22_comp_light.exr using Guid(23e530819b56f294aa5cb5a974818b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff103ddd7930291c69166b16430f97e6') in 0.041606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-23_comp_dir.png
+  artifactKey: Guid(8c77c326735e8fe4fb73a5b55798cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-23_comp_dir.png using Guid(8c77c326735e8fe4fb73a5b55798cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a204f0a207fe43dfd216fbdee3bd4230') in 0.029863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-20_comp_dir.png
+  artifactKey: Guid(a26cabfccadaebe499e8cddd42556a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-20_comp_dir.png using Guid(a26cabfccadaebe499e8cddd42556a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fbd9099463a48b6ca8932175cac71f') in 0.050334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-13_comp_dir.png
+  artifactKey: Guid(7445fd4cc6a675d43ac5e3a850e0f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-13_comp_dir.png using Guid(7445fd4cc6a675d43ac5e3a850e0f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02481db01368c70e9dc230b63f68821') in 0.037270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-26_comp_dir.png
+  artifactKey: Guid(56f6f3daaa89020468c29eed989c818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-26_comp_dir.png using Guid(56f6f3daaa89020468c29eed989c818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8161129e00f66ac040d2033c65ba874b') in 0.009408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-6_comp_light.exr
+  artifactKey: Guid(0b2ee7580476c844f844acdadc228ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-6_comp_light.exr using Guid(0b2ee7580476c844f844acdadc228ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0584023bcc13927e04858a7d1f95cf65') in 0.051131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f7445499b94ce2642b883fee694d20a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-2_comp_light.exr using Guid(f7445499b94ce2642b883fee694d20a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad16ad202e43ff987929a8985fd86acd') in 0.015925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-7_comp_light.exr
+  artifactKey: Guid(7e039f3bd1b1c394993b97fb09967f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-7_comp_light.exr using Guid(7e039f3bd1b1c394993b97fb09967f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5de8cf43351ff15ccce450f4f10bfe1') in 0.016153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-1_comp_dir.png
+  artifactKey: Guid(35faa5308c5e91e4f83d4822590caad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-1_comp_dir.png using Guid(35faa5308c5e91e4f83d4822590caad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91ab2682396d017def4238cdfcac65e') in 0.027202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1d26b221b5f5eda429acd6abf1b8a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-4_comp_dir.png using Guid(1d26b221b5f5eda429acd6abf1b8a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0b3d96ff84144dd62768853968b28a') in 0.017338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-14_comp_dir.png
+  artifactKey: Guid(5bcc878bbea4e2c4ab2c05ede8fc703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-14_comp_dir.png using Guid(5bcc878bbea4e2c4ab2c05ede8fc703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dff0da4808b52bf76b68d629bf065c') in 0.021159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-17_comp_light.exr
+  artifactKey: Guid(f4397d9dae1ab35408b9230c02921c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-17_comp_light.exr using Guid(f4397d9dae1ab35408b9230c02921c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad5bffee7518cc06f57f5995c8f5d5b') in 0.021257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-19_comp_light.exr
+  artifactKey: Guid(91572f0a920521045b43b6231284d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-19_comp_light.exr using Guid(91572f0a920521045b43b6231284d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b3183c60bb7fc9e1c760c12b0d63c5') in 0.045011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-3_comp_light.exr
+  artifactKey: Guid(f9e7823eb2c06a84fab707352e4ec17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-3_comp_light.exr using Guid(f9e7823eb2c06a84fab707352e4ec17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef1cd489547564fa0c43538ffde2d0d') in 0.016304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-1_comp_light.exr
+  artifactKey: Guid(6570d210fbd9c37409d774fd5ef8b16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-1_comp_light.exr using Guid(6570d210fbd9c37409d774fd5ef8b16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a66d6c32561cc94f9963dd3d210377') in 0.045381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-18_comp_dir.png
+  artifactKey: Guid(6601f519db5082c43b766842ea4cc65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-18_comp_dir.png using Guid(6601f519db5082c43b766842ea4cc65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb938adb154ac109e64db354cfd513b1') in 0.020552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-11_comp_dir.png
+  artifactKey: Guid(4ad601cb0a768924daa0345971c4d08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-11_comp_dir.png using Guid(4ad601cb0a768924daa0345971c4d08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450279046e41b18bbeca33787acc89cc') in 0.023835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-24_comp_dir.png
+  artifactKey: Guid(d6b50dd6754b33f42b39b1c1ed99650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-24_comp_dir.png using Guid(d6b50dd6754b33f42b39b1c1ed99650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87ce0b1b4c7d931eac892a1ae52f3fc') in 0.010072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-3_comp_dir.png
+  artifactKey: Guid(922ec12db99177c43b3375443964a50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-3_comp_dir.png using Guid(922ec12db99177c43b3375443964a50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cd228d76a677e34b97971343488191') in 0.020944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-4_comp_light.exr
+  artifactKey: Guid(2e8ab6fac898e4640ae70a3685f538e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-4_comp_light.exr using Guid(2e8ab6fac898e4640ae70a3685f538e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace4b9bbd73daaa0e809a9ebe5a8aee') in 0.017195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-16_comp_dir.png
+  artifactKey: Guid(2361a13d6c44d414c9fb51b872257c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-16_comp_dir.png using Guid(2361a13d6c44d414c9fb51b872257c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2178c3895936e11640f45ae754bb4a8') in 0.015887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-0_comp_dir.png
+  artifactKey: Guid(28b814ff2ff373e41aa344482258679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-0_comp_dir.png using Guid(28b814ff2ff373e41aa344482258679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305d6cd66bd5f34f96a0b3953d4a88ee') in 0.041856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-0_comp_light.exr
+  artifactKey: Guid(6f97efc6c23aaba4496ce6453fd9a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-0_comp_light.exr using Guid(6f97efc6c23aaba4496ce6453fd9a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8323da72a04929f82614a9e8adf75b9') in 0.050441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-6_comp_dir.png
+  artifactKey: Guid(bdee56bf9e1da8549b1a208de3096526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-6_comp_dir.png using Guid(bdee56bf9e1da8549b1a208de3096526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124bba8869a963163347b11aaf5b2a65') in 0.016921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-8_comp_dir.png
+  artifactKey: Guid(dacda93c71d3ce54a9dc45ac18b3d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-8_comp_dir.png using Guid(dacda93c71d3ce54a9dc45ac18b3d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4f5c19965656a35150dfa1565e5ad1') in 0.016487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-17_comp_dir.png
+  artifactKey: Guid(68fa20391a2a9494d8e6f0cfa4d456ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-17_comp_dir.png using Guid(68fa20391a2a9494d8e6f0cfa4d456ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdec5265eb98d5b9d02660f8db1bce5e') in 0.017160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-22_comp_dir.png
+  artifactKey: Guid(7c12efce59b769346bbfbe494bd343c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-22_comp_dir.png using Guid(7c12efce59b769346bbfbe494bd343c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f788d99c31a3c4bd2eb56548ba705ac8') in 0.026776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-18_comp_light.exr
+  artifactKey: Guid(43bc0f2a5c066034b894698f6da94b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-18_comp_light.exr using Guid(43bc0f2a5c066034b894698f6da94b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a44063f6b596a47518a6572f90bb69') in 0.028749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-27_comp_dir.png
+  artifactKey: Guid(1fc61634b9fbcd64da43ca1ea39824ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-27_comp_dir.png using Guid(1fc61634b9fbcd64da43ca1ea39824ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7391727c113fd490d14f021bc73c11') in 0.016804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-13_comp_light.exr
+  artifactKey: Guid(f32586b61ab28f9448ceee12f738c318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-13_comp_light.exr using Guid(f32586b61ab28f9448ceee12f738c318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c428b738f9d9aab907bc4f14fcdb88ab') in 0.027262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-25_comp_light.exr
+  artifactKey: Guid(5e416f726aaf529489b3585fd0869c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-25_comp_light.exr using Guid(5e416f726aaf529489b3585fd0869c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192693011c7f86033e01c457bab47f35') in 0.009111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-23_comp_light.exr
+  artifactKey: Guid(5b93f5482436a6047b18e8aa502f481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-23_comp_light.exr using Guid(5b93f5482436a6047b18e8aa502f481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbbb3739f98944081b661c2f547c67f') in 0.034859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-8_comp_light.exr
+  artifactKey: Guid(3029d388a5b75114e869aecb8d80660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-8_comp_light.exr using Guid(3029d388a5b75114e869aecb8d80660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f74ed1393ea124a198ea7aae69e557c') in 0.015988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-19_comp_dir.png
+  artifactKey: Guid(23ca2ae2b8679bd43b52e678e280050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-19_comp_dir.png using Guid(23ca2ae2b8679bd43b52e678e280050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85562941db8e8af8eb3ce55ad17d16e') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-15_comp_dir.png
+  artifactKey: Guid(8dedbd2e3006d7540a44f8a9786f53ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-15_comp_dir.png using Guid(8dedbd2e3006d7540a44f8a9786f53ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6be3bd7c6af09ef62ff5bfbccacbca5') in 0.062149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_Scenes/Level Mockup/Lightmap-26_comp_light.exr
+  artifactKey: Guid(7422ccadd6b3d234cbde6799d59328b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Level Mockup/Lightmap-26_comp_light.exr using Guid(7422ccadd6b3d234cbde6799d59328b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a45ea8d03f83030a2e46006d1251cb') in 0.009755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064884 seconds.
+  path: Assets/_Scenes/TomL1
+  artifactKey: Guid(afb85a1cf9948d343ba3eae946039589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/TomL1 using Guid(afb85a1cf9948d343ba3eae946039589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6789e9da4204cbb5a86783cec6cf143e') in 0.005590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022010 seconds.
+  path: Assets/_Scenes/TomL1/Global Volume Profile 1.asset
+  artifactKey: Guid(504cdb21cd517ec45af2e4d450f8efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/TomL1/Global Volume Profile 1.asset using Guid(504cdb21cd517ec45af2e4d450f8efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860c814763c4e4cc894fed6a8d1ac1e9') in 0.013855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_Scenes/TomL1/Global Volume Profile.asset
+  artifactKey: Guid(7608e124323aa1c4990e5fc2e33f151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/TomL1/Global Volume Profile.asset using Guid(7608e124323aa1c4990e5fc2e33f151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a082362dfa05d99e73926e5ccf8e67f6') in 0.006112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.239872 seconds.
+  path: Assets/_Scenes/Playable/Level 2 Mock.unity
+  artifactKey: Guid(77dc71eec06f9e842af5d9bb8dd879e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Playable/Level 2 Mock.unity using Guid(77dc71eec06f9e842af5d9bb8dd879e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaabd5d81f1b30649e268ea1ceb2a53f') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.165989 seconds.
+  path: Assets/_Scenes/Playable/Level 3 Mock.unity
+  artifactKey: Guid(59277a13263f7744b9882bdfa03b0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Playable/Level 3 Mock.unity using Guid(59277a13263f7744b9882bdfa03b0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddb1c3f0bb8918395e5236859c59d46') in 0.005895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.510622 seconds.
+  path: Assets/_Scenes/Playable/Level 5.unity
+  artifactKey: Guid(85046ab26b71d7b438da00a327d4c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Playable/Level 5.unity using Guid(85046ab26b71d7b438da00a327d4c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bae7143de44a3f45fec2440cb705a9b') in 0.005839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.126671 seconds.
+  path: Assets/_Scenes/Playable/Level Mockup.unity
+  artifactKey: Guid(b42c06bb4236c3f45ae65eb503289a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Playable/Level Mockup.unity using Guid(b42c06bb4236c3f45ae65eb503289a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d20f380afab6aba0b00385d4a1d970d') in 0.006174 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5000 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.9 MB.
+System memory in use after: 363.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 6932.
+Total: 3.709300 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.128300 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.062900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94.247407 seconds.
+  path: Assets/Scripts/Player/PlayerCharacter.cs
+  artifactKey: Guid(4923104482fb79845bd176a5a1512774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerCharacter.cs using Guid(4923104482fb79845bd176a5a1512774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e0c0cc1d702f7e3480b251ab40ea0') in 0.013784 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.2 MB.
+System memory in use after: 263.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 6932.
+Total: 4.022600 ms (FindLiveObjects: 0.504100 ms CreateObjectMapping: 0.244200 ms MarkObjects: 3.198600 ms  DeleteObjects: 0.075000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.041404 seconds.
+  path: Assets/_Scenes/Main Menu
+  artifactKey: Guid(dd755a6655321944898be52348f62885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Main Menu using Guid(dd755a6655321944898be52348f62885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70012722bc7606fae5fd5118a84553a9') in 0.005825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031095 seconds.
+  path: Assets/_Scenes/Main Menu/LightingData.asset
+  artifactKey: Guid(b9a25c63171cce147aca100615a83bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Main Menu/LightingData.asset using Guid(b9a25c63171cce147aca100615a83bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d54955075136d553298a27a9c9e37') in 0.033439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/_Scenes/Main Menu/ReflectionProbe-0.exr
+  artifactKey: Guid(4ac144eabdac55646831b23776f0d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Main Menu/ReflectionProbe-0.exr using Guid(4ac144eabdac55646831b23776f0d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
+UnityEditor.TextureInspector:OnEnable ()
+UnityEditor.CubemapInspector:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.CubemapPreview:InitPreview ()
+UnityEditor.CubemapPreview:RenderStaticPreview (UnityEngine.Texture,int,int)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+ -> (artifact id: '998778100ceb2d1ed74073abf74638ed') in 0.034720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.180697 seconds.
+  path: Assets/_Scenes/Tutorials
+  artifactKey: Guid(e8ed2d8605f9de94eaed73909d3b70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Tutorials using Guid(e8ed2d8605f9de94eaed73909d3b70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803f89f8c66c7bddd47dc1287aa7df87') in 0.006160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.861043 seconds.
+  path: Assets/_Scenes/Tutorials/Tutorial.unity
+  artifactKey: Guid(fc1799289a94a9a46b8d00e95850ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Tutorials/Tutorial.unity using Guid(fc1799289a94a9a46b8d00e95850ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873c8aee940a4d5894d47815a8e13c50') in 0.006201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.456720 seconds.
+  path: Assets/_Scenes/Tutorials/Tutorial2.unity
+  artifactKey: Guid(79b1e138b95f6bd49b25342aaca754b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Tutorials/Tutorial2.unity using Guid(79b1e138b95f6bd49b25342aaca754b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d6715b55a8a81842b5b1b67ef1d5e2') in 0.006332 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4909 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 360.7 MB.
+System memory in use after: 361.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 6951.
+Total: 4.394700 ms (FindLiveObjects: 0.490500 ms CreateObjectMapping: 0.235700 ms MarkObjects: 3.593600 ms  DeleteObjects: 0.074000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\TGP_GroupProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 360.8 MB.
+System memory in use after: 361.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 6954.
+Total: 3.801000 ms (FindLiveObjects: 0.472800 ms CreateObjectMapping: 0.133300 ms MarkObjects: 3.118900 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.0 MB.
+System memory in use after: 264.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 6954.
+Total: 3.855000 ms (FindLiveObjects: 0.483900 ms CreateObjectMapping: 0.144800 ms MarkObjects: 3.162400 ms  DeleteObjects: 0.063300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.0 MB.
+System memory in use after: 264.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 6954.
+Total: 3.688400 ms (FindLiveObjects: 0.465100 ms CreateObjectMapping: 0.128400 ms MarkObjects: 3.037900 ms  DeleteObjects: 0.056300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
